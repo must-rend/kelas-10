@@ -1,0 +1,19 @@
+body {
+  background-color: lightgrey;
+}
+
+img {
+  width: 200px;
+}
+nav {
+    margin-left: 200px;
+}
+.batas {
+    margin-left: 200px;
+    background-color: lightcoral;
+}
+#bekgron {
+    background-color: yellow;
+    position: sticky;
+    left: 200px;
+}
