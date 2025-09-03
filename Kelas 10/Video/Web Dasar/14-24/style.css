@@ -1,0 +1,68 @@
+.border {
+  border: 1px solid;
+}
+.wadah {
+  width: 200px;
+  margin: auto;
+}
+.card {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+}
+.horizontal {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rata {
+  text-align: center;
+}
+.warna {
+  background-color: lightblue;
+  background-image: -webkit-linear-gradient(45deg, lightblue, white);
+}
+.display {
+  display: inline-block;
+  padding: 2px;
+}
+h1:hover {
+  background-color: red;
+}
+p::first-line {
+  font-size: 200%;
+  color: red;
+}
+p::first-letter {
+  font-size: 300%;
+  color: blue;
+}
+.card:target {
+  background-color: cyan;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+  .tempat {
+    width: 80%;
+  }
+  .lebar {
+    width: 100%;
+  }
+  .respon{
+    display : flex;
+    flex-direction: collumn;
+  }
+}
+.display:hover {
+  animation: animasi 2s infinite;
+}
+@keyframes animasi {
+  from {
+    background-color: lightblue;
+  }
+  to {
+    background-color: white;
+  }
+}
