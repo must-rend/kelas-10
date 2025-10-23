@@ -1,0 +1,2 @@
+<h1>Jurusan</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magnam aliquam totam id ratione veritatis beatae, possimus exercitationem deleniti, voluptas odit quis veniam temporibus, est fugit perferendis vero hic blanditiis.</p>

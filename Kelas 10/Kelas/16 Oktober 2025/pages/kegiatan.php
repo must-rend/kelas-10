@@ -1,0 +1,2 @@
+<h1>Kegiatan</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit porro earum similique blanditiis quaerat voluptatibus odit nam nesciunt tempore necessitatibus quia nostrum sequi repellendus odio ad, vel consectetur modi distinctio.</p>
