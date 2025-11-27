@@ -22,7 +22,7 @@
         
 
         if ($result = mysqli_query($con, $sql)) {
-            echo "Data sudah diubah !";
+            echo "Data diubah !";
         } else {
             echo "Data gagal diubah !";
         }
@@ -32,3 +32,4 @@
     }
 
 ?>
+
