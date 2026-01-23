@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
 }
 a {
@@ -11,30 +11,29 @@ a {
   gap: 20px;
   display: flex;
 }
-.navbar{
-    background-color: #3872b4;
-    color: white;
+.navbar {
+  background-color: #3872b4;
+  color: white;
 }
-.navbar1{
-    display: flex;
-    gap: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    justify-content: left;
-    padding-left: 280px;
+.navbar1 {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: left;
+  padding-left: 280px;
 }
-
-.navbar2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 605px;
-    background-color: white;
-    color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 605px;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.button-nav{
+.button-nav {
   padding: 8px 18px;
   background-color: #0d6efd;
   color: white;
@@ -47,24 +46,24 @@ a {
   justify-content: center;
   line-height: 1;
 }
-.isi{
-    background-image: url(https://mtsnuhati.sch.id/assets/img/hero-bg.jpg);
+.isi {
+  background-image: url(https://mtsnuhati.sch.id/assets/img/hero-bg.jpg);
 }
-.isi1{
-    text-align: left;
-    padding-left: 280px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: rgb(28, 48, 68);
+.isi1 {
+  text-align: left;
+  padding-left: 280px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: rgb(28, 48, 68);
 }
-.isi2{
-    display: flex;
-    gap: 30px;
-    padding-left: 280px;
-    padding-right: 280px;
-    padding-bottom: 190px;
-    justify-content: center;
-    text-align: center;
+.isi2 {
+  display: flex;
+  gap: 30px;
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 190px;
+  justify-content: center;
+  text-align: center;
 }
 .card-primary {
   background-color: #0d6efd;
@@ -92,4 +91,101 @@ a {
   padding: 24px 22px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease;
+}
+.berita {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 100px;
+  text-align: center;
+  justify-content: center;
+}
+.daftar {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f8f9fa;
+}
+.form-daftar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 18px;
+  padding: 26px 24px;
+  box-shadow: 0 14px 35px rgba(13, 110, 253, 0.45);
+}
+
+.form-daftar h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-daftar label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-daftar input[type="text"],
+.form-daftar input[type="date"],
+.form-daftar input[type="tel"],
+.form-daftar input[type="email"],
+.form-daftar select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-daftar input[type="submit"] {
+  background-color: #ffffff;
+  color: #0d6efd;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-daftar input[type="submit"]:hover {
+  background-color: #e9ecef;
+}
+.isi-kesiswaan {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 100px;
+  text-align: left;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
+}
+.isi-kontak {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 100px;
+  text-align: left;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
+}
+.isi-kurikulum {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 100px;
+  text-align: left;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
+}
+.isi-profil {
+  padding-left: 280px;
+  padding-right: 280px;
+  padding-bottom: 100px;
+  text-align: left;
+  justify-content: center;
+  background-color: rgb(253, 253, 253);
 }

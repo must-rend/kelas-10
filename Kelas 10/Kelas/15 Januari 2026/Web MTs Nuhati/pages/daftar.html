@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTS Nuhati</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <section class="daftar">
+      <form action="" method="post" class="form-daftar">
+        <h2>Form Pendaftaran Siswa Baru</h2>
+        <label for="nama">Nama Lengkap:</label>
+        <input
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Masukkan nama lengkap"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Masukkan email"
+          required
+        />
+
+        <label for="alamat">Alamat:</label>
+        <input
+          type="text"
+          id="alamat"
+          name="alamat"
+          placeholder="Masukkan alamat lengkap"
+          required
+        />
+
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required />
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+          <option value="">Pilih jenis kelamin</option>
+          <option value="laki-laki">Laki-laki</option>
+          <option value="perempuan">Perempuan</option>
+        </select>
+
+        <label for="asal_sekolah">Asal Sekolah:</label>
+        <input
+          type="text"
+          id="asal_sekolah"
+          name="asal_sekolah"
+          placeholder="Masukkan asal sekolah"
+          required
+        />
+
+        <label for="no_telepon">No. Telepon:</label>
+        <input
+          type="tel"
+          id="no_telepon"
+          name="no_telepon"
+          placeholder="Masukkan nomor telepon"
+          required
+        />
+
+        <input type="submit" value="Daftar Sekarang" />
+        <a href="../index.html">Kembali ke Home</a>
+      </form>
+    </section>
+  </body>
+</html>
