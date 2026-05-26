@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import './Navbar.css';
@@ -6,6 +8,7 @@ import './Navbar.css';
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const { token } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +40,13 @@ const Navbar = () => {
               <a href={link.href}>{link.name}</a>
             </li>
           ))}
+          <li>
+            {token ? (
+              <Link to="/dashboard" className="nav-btn nav-btn-dashboard">Dashboard</Link>
+            ) : (
+              <Link to="/login" className="nav-btn nav-btn-login">Login</Link>
+            )}
+          </li>
         </ul>
 
         {/* Mobile Toggle */}
@@ -59,6 +69,13 @@ const Navbar = () => {
                 <a href={link.href}>{link.name}</a>
               </li>
             ))}
+            <li onClick={() => setIsOpen(false)} className="mobile-nav-btn">
+              {token ? (
+                <Link to="/dashboard" className="btn btn-primary" style={{ display: 'block', padding: '0.5rem' }}>Dashboard</Link>
+              ) : (
+                <Link to="/login" className="btn btn-outline" style={{ display: 'block', padding: '0.5rem' }}>Login</Link>
+              )}
+            </li>
           </ul>
         </motion.div>
       )}
